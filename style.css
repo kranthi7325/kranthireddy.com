@@ -10,8 +10,33 @@
 	#content {
 		height: 770px;
 		width: 100%;
-		margin-top:-10px; 
+		
 		background-color:#4dbbac;
 		position: relative;
-		z-index: 70
+		z-index: 1;
 	}
+	.content1 {
+		height: 770px;
+		width: 100%;
+	
+		background-color:#79F5EE;
+		position: relative;
+		z-index: 1;
+	}
+	.content2 {
+		height: 770px;
+		width: 100%;
+		
+		background-color:#57CD9C;
+		position: relative;
+		z-index: 1;
+	}
+	.content3 {
+		height: 770px;
+		width: 100%;
+	
+		background-color:#CD5A57;
+		position: relative;
+		z-index: 1;
+	}
+	
