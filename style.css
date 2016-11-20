@@ -5,17 +5,17 @@
 	}
 	#image {
 		position: relative;
-		z-index: -1
+	z-index: -1;
 	}
-	#content {
+	.content1 {
 		height: 770px;
 		width: 100%;
-		
+		margin-top: -5px;
 		background-color:#4dbbac;
 		position: relative;
 		z-index: 1;
 	}
-	.content1 {
+	.content2 {
 		height: 770px;
 		width: 100%;
 	
@@ -23,7 +23,7 @@
 		position: relative;
 		z-index: 1;
 	}
-	.content2 {
+	.content3 {
 		height: 770px;
 		width: 100%;
 		
@@ -31,7 +31,7 @@
 		position: relative;
 		z-index: 1;
 	}
-	.content3 {
+	.content4 {
 		height: 770px;
 		width: 100%;
 	
