@@ -1,0 +1,17 @@
+
+	*{
+	margin: 0px;
+	padding: 0px;
+	}
+	#image {
+		position: relative;
+		z-index: -1
+	}
+	#content {
+		height: 770px;
+		width: 100%;
+		margin-top:-10px; 
+		background-color:#4dbbac;
+		position: relative;
+		z-index: 70
+	}
