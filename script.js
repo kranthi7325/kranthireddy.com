@@ -7,4 +7,6 @@
 	}
 	window.addEventListener('scroll', parallex),false;
 
+	
+
 
