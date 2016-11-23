@@ -51,12 +51,39 @@
 	.content1 {
 		height: 770px;
 		width: 100%;
-	
-		margin-top: -90px;
-		background-color:#999BF1;
+	   background-color:#ffffff;
 		position: relative;
 		z-index: -1;
 	}
+  .centreimage
+{
+  margin-left:640px;
+margin-top: -750px;
+position: absolute;
+height: 200px;
+}
+/*article
+{
+  text-align: center;
+    position: absolute;
+    
+    margin-top: -420px;
+    margin-left: 558px;
+    
+}
+
+article{
+  font-family: Arial;
+  font-size: 20px;
+  letter-spacing: -1px;
+  margin-bottom: 400px;
+  color: #000000;
+  
+}*/
+
+
+
+
 	.content2 {
 		height: 770px;
 		width: 100%;
@@ -91,7 +118,7 @@ h2 {
    width: 100%; 
 }
 .BodyContainer{
-
+  
     position: relative;
     z-index: 1;
     margin-top: -500px;
@@ -99,12 +126,12 @@ h2 {
     padding-left: 400px;
 }
 .hero-unit p {
-	font-family: Arial Narrow, Century Gothic, Arial;
+	font-family: 'Dancing Script', cursive, Arial;
   font-size: 60px;
   letter-spacing: -1px;
   margin-bottom: 400px;
   color: #ffffff;
-  font-family: verdana;
+  
 }
 	
 
