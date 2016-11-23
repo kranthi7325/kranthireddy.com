@@ -1,4 +1,6 @@
-
+a{
+    text-decoration:none;
+}
 	*{
 	margin: 0px;
 	padding: 0px;
@@ -62,24 +64,25 @@ margin-top: -750px;
 position: absolute;
 height: 200px;
 }
-/*article
+article
 {
   text-align: center;
     position: absolute;
     
-    margin-top: -420px;
-    margin-left: 558px;
+    margin-top: 250px;
+    margin-left: 320px;
     
 }
 
 article{
-  font-family: Arial;
+  font-family: 'Rajdhani', sans-serif, Arial, Verdana;
   font-size: 20px;
   letter-spacing: -1px;
+  line-height: 70px;
   margin-bottom: 400px;
   color: #000000;
   
-}*/
+}
 
 
 
@@ -126,7 +129,7 @@ h2 {
     padding-left: 400px;
 }
 .hero-unit p {
-	font-family: 'Dancing Script', cursive, Arial;
+	font-family: 'Dancing Script', cursive, Arial, Verdana;
   font-size: 60px;
   letter-spacing: -1px;
   margin-bottom: 400px;
@@ -181,6 +184,7 @@ ul.drop-menu {
   padding: 0;
 }
 ul.drop-menu li {
+
 	font-family: Arial Narrow, Century Gothic, Arial;
   background: #666;
   color: rgba(255, 255, 255, 1);
@@ -189,10 +193,14 @@ ul.drop-menu li:hover {
   background: #4dbbac;
 }
 ul.drop-menu li:first-child {
-  border-radius: 5px 5px 0px 0px;
+
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
-ul.drop-menu li:last-child {
-  border-radius: 0px 0px 5px 5px;
+.bor
+{
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 ul.drop-menu li {
