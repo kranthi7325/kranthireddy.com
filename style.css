@@ -5,6 +5,11 @@ a{
 	margin: 0px;
 	padding: 0px;
 	}
+  .floating-box {
+    float: left;
+    margin: 95px;
+    text-align: center;
+    }
 	
 	#image {
 		position: relative;
@@ -90,16 +95,264 @@ article{
 	.content2 {
 		height: 770px;
 		width: 100%;
-	
-		background-color:#6EF1D1;
+	text-align: center;
+		background-color:#6cc6c6;
 		position: relative;
 		z-index: -1;
 	}
+  .chart1 {
+  position: relative;
+  display: inline-block;
+  overflow: auto;
+  width: 110px;
+  height: 110px;
+  font-family: Arial, Verdana;
+  text-align: center;
+}
+.chart1 canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sk
+{
+  font-family: Arial, Verdana;
+padding-top: 40px;
+color: white;
+}
+ 
+.htm1
+{
+  font-family: Arial, Verdana;
+  padding: 10px;
+  color: white;
+}
+.ja1
+{
+  font-family: Arial, Verdana;
+  padding: 10px;
+  color: white;
+}
+ 
+.cs1
+{
+  font-family: Arial, Verdana;
+  padding: 10px;
+  color: white;
+}
+.jq1
+{
+  font-family: Arial, Verdana;
+  padding: 10px;
+  color: white;
+}
+ 
+.ag1
+{
+  font-family: Arial, Verdana;
+  padding: 10px;
+  color: white;
+}
+.re1
+{
+  font-family: Arial, Verdana;
+  padding: 10px;
+  color: white;
+}
+ 
+.nd1
+{
+  font-family: Arial, Verdana;
+  padding: 10px;
+  color: white;
+}
+.pp1
+{
+  font-family: Arial, Verdana;
+  padding: 10px;
+  color: white;
+}
+.ns1
+{
+  font-family: Arial, Verdana;
+  padding: 10px;
+  color: white;
+}
+ 
+.ms1
+{
+  font-family: Arial, Verdana;
+  padding: 10px;
+  color: white;
+}
+.md1
+{
+  font-family: Arial, Verdana;
+  padding: 10px;
+  color: white;
+}
+/*.htm1
+{
+  .ja1 .cs1 .jq1 .ag1 .re1 .nd1 .pp1 .ns1 .ms1 .md1
+  font-size: 20px;
+  font-family: Arial;
+  margin-left: 224px;
+  margin-top: 10px;
+}*/
+.chart2 {
+  position: relative;
+  display: inline-block;
+  overflow: auto;
+  font-family: Arial, Verdana;
+  width: 110px;
+  height: 110px;
+  
+  text-align: center;
+}
+.chart2 canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/*.cs1
+{
+  font-size: 20px;
+  font-family: Arial;
+  margin-left: 448px;
+  margin-top: 10px;
+}*/
+.chart3 {
+  position: relative;
+  display: inline-block;
+  font-family: Arial, Verdana;
+  width: 110px;
+  height: 110px;
+  overflow: auto;
+  
+  text-align: center;
+}
+.chart3 canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.chart4 {
+  position: relative;
+  display: inline-block;
+  font-family: Arial, Verdana;
+  width: 110px;
+  height: 110px;
+  overflow: auto;
+  
+  text-align: center;
+}
+.chart4 canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.chart5 {
+  position: relative;
+  display: inline-block;
+  font-family: Arial, Verdana;
+  width: 110px;
+  height: 110px;
+  overflow: auto;
+  
+  text-align: center;
+}
+.chart5 canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.chart6 {
+  position: relative;
+  display: inline-block;
+  font-family: Arial, Verdana;
+  width: 110px;
+  height: 110px;
+  overflow: auto;
+  
+  text-align: center;
+}
+.chart6 canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.chart7 {
+  position: relative;
+  display: inline-block;
+  font-family: Arial, Verdana;
+  width: 110px;
+  height: 110px;
+  overflow: auto;
+  
+  text-align: center;
+}
+.chart7 canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.chart8 {
+  position: relative;
+  display: inline-block;
+  font-family: Arial, Verdana;
+  width: 110px;
+  height: 110px;
+  overflow: auto;
+  
+  text-align: center;
+}
+.chart8 canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.chart9 {
+  position: relative;
+  display: inline-block;
+  font-family: Arial, Verdana;
+  width: 110px;
+  height: 110px;
+  overflow: auto;
+  
+  text-align: center;
+}
+.chart9 canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.chart10 {
+  position: relative;
+  display: inline-block;
+  font-family: Arial, Verdana;
+  width: 110px;
+  height: 110px;
+  overflow: auto;
+  
+  text-align: center;
+}
+.chart10 canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.percent {
+  display: inline-block;
+  line-height: 110px;
+  z-index: 2;
+  
+}
 	.content3 {
 		height: 770px;
 		width: 100%;
 		
-		background-color:#DD9FF7;
+		/*background-color:#DD9FF7;*/
 		position: relative;
 		z-index: -1;
 	}

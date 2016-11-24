@@ -1,3 +1,6 @@
+/* -----------------------------------------landing page text effect to fade out when scrolled--------------------*/
+
+
 $("#indexname").next().height($("#indexname").height())
 $(window).scroll(function() {
     var scrollTop = window.pageYOffset || document.documentElement.scrollTop;

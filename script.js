@@ -1,4 +1,4 @@
-
+/* ----------------------------- parallax effect of landing page image----------*/
 	var ypos,image;
 	function parallex() {
 		image = document.getElementById('image');
