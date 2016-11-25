@@ -4,20 +4,23 @@
 <title>Kranthi Reddy-UI/UX, Front End and Back End Developer</title>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> <!--JQuery file-->
-<script src="script.js"></script> <!--js file of parallax-->
-<script src="scroll.js"> </script>  <!--jquery file of text fade out effect-->
+<script src="js/script.js"></script> <!--js file of parallax-->
+<script src="js/scroll.js"> </script>  <!--jquery file of text fade out effect-->
 <link rel="stylesheet" href="style.css" type="text/css" media="screen"> <!--css file-->
 <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet"> <!-- font style of landing page-->
 <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet"> <!--font style of about-->
+<script src="js/scrollreveal.js"></script>
 <script src="easypie/jquery.easypiechart.min.js"></script> <!-- skills page plugin-->
-<script src="jquery.waypoints.min.js"></script>
-<script src="waypoint.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/waypoint.js"></script>
 </head>
 
 <body>
 <div class="hero-unit">
-      
-<div><div><img id="image" src="img/image.jpg" /></div> 
+<div>
+<div>
+<img id="image" src="img/image.jpg" />
+</div> 
 <div><a target="_blank" href="https://github.com/kranthi7325">
     <img class="cornerimage" src="img/github7.jpg" 
     onmouseover="this.src='img/github8.jpg'"
@@ -55,7 +58,7 @@
 <div class="content1" id="about">
 <article>
    
-   <h1><span style="color: #45b29a; font-size: 40px;">Hi.</span><br>
+   <h1><span style="color: #45b29a; font-size: 40px;" class="intro">Hi.</span><br>
    <span style="font-size: 40px;">
      
    </style>i'm a UX/UI Designer, Front End and Back End Developer</span><br>
@@ -138,31 +141,13 @@
   </div>
 </div>
 </div>
-
-
 <div class="content3" ></div>
 <div class="content4" ></div>
 
-
-
 <script>
-
-  $(function() {
   
-    var $centreimage = $('.sec1');
-    $centreimage.waypoint(function(){
-      
-    $('.chart1, .chart2, .chart3, .chart4, .chart5, .chart6, .chart7, .chart8, .chart9, .chart1, .chart10')
-    .easyPieChart({
-      
-      onStep: function(from, to, percent) {
-        $(this.el).find('.percent').text(Math.round(percent));
-      }
-    });
-   
-},{ offset: '60%' });
-  });
-  </script>
-	
+  window.sr = ScrollReveal({ reset: true });
+sr.reveal('.chart1, .chart2, .chart3, .chart4, .chart5, .chart6, .chart7, .chart8, .chart9, .chart1, .chart10, .centreimage, .intro');
+</script>
 </body>
 </html>
