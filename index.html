@@ -1,7 +1,7 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<title>HOME</title>
+<title>Kranthi Reddy-UI/UX, Front End and Back End Developer</title>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> <!--JQuery file-->
 <script src="script.js"></script> <!--js file of parallax-->
@@ -9,7 +9,9 @@
 <link rel="stylesheet" href="style.css" type="text/css" media="screen"> <!--css file-->
 <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet"> <!-- font style of landing page-->
 <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet"> <!--font style of about-->
-<script src="easypie/jquery.easypiechart.min.js"></script>
+<script src="easypie/jquery.easypiechart.min.js"></script> <!-- skills page plugin-->
+<script src="jquery.waypoints.min.js"></script>
+<script src="waypoint.js"></script>
 </head>
 
 <body>
@@ -73,17 +75,18 @@
  </div>
 
 <div class="content2" ><h3 class="sk">Skill Level</h3>
+<div class="sec1">
 <div class="floating-box">
 <span class="chart1" data-percent="80">
   <span class="percent"></span>
   </span>
-  <h3 class="htm1">HTML</h3>
+  <h3 class="htm1">JAVA</h3>
   </div>
   <div class="floating-box">
   <span class="chart2" data-percent="81">
   <span class="percent"></span>
   </span>
-<h3 class="ja1">JavaScript</h3>
+<h3 class="ja1">HTML</h3>
   </div>
   <div class="floating-box"><span class="chart3" data-percent="82">
   <span class="percent"></span>
@@ -94,19 +97,20 @@
   <span class="chart4" data-percent="83">
   <span class="percent"></span>
   </span>
-  <h3 class="jq1">JQuery</h3>
+  <h3 class="jq1">JS/JQuery</h3>
   </div>
   <div class="floating-box">
   <span class="chart5" data-percent="84">
   <span class="percent"></span>
   </span>
-  <h3 class="ag1">Angularjs</h3>
+  <h3 class="ag1">BootStrap</h3>
   </div>
+  
 <div class="floating-box">
   <span class="chart6" data-percent="85">
   <span class="percent"></span>
   </span>
-  <h3 class="re1">Reactjs</h3>
+  <h3 class="re1">Angularjs</h3>
   </div>
   <div class="floating-box">
     <span class="chart7" data-percent="86">
@@ -118,25 +122,22 @@
     <span class="chart8" data-percent="87">
   <span class="percent"></span>
   </span>
-  <h3 class="pp1">PHP</h3>
+  <h3 class="pp1">SQL/PL</h3>
   </div>
   <div class="floating-box">
     <span class="chart9" data-percent="88">
   <span class="percent"></span>
   </span>
-  <h3 class="ms1">MYSQL</h3>
+  <h3 class="ms1">Spring</h3>
   </div>
   <div class="floating-box">
     <span class="chart10" data-percent="88">
   <span class="percent"></span>
   </span>
-  <h3 class="md1">MongoDB</h3>
+  <h3 class="md1">Hibernite</h3>
   </div>
-
-
-
-  </div>
-
+</div>
+</div>
 
 
 <div class="content3" ></div>
@@ -145,14 +146,21 @@
 
 
 <script>
+
   $(function() {
-    $('.chart1, .chart2, .chart3, .chart4, .chart5, .chart6, .chart7, .chart8, .chart9, .chart10').easyPieChart({
-      easing: 'easeOutBounce',
+  
+    var $centreimage = $('.sec1');
+    $centreimage.waypoint(function(){
+      
+    $('.chart1, .chart2, .chart3, .chart4, .chart5, .chart6, .chart7, .chart8, .chart9, .chart1, .chart10')
+    .easyPieChart({
+      
       onStep: function(from, to, percent) {
         $(this.el).find('.percent').text(Math.round(percent));
       }
     });
-    
+   
+},{ offset: '60%' });
   });
   </script>
 	
