@@ -2,8 +2,10 @@
 <html>
 <head>
 <title>Kranthi Reddy-UI/UX, Front End and Back End Developer</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> <!--JQuery file-->
 <script src="js/script.js"></script> <!--js file of parallax-->
 <script src="js/scroll.js"> </script>  <!--jquery file of text fade out effect-->
 <link rel="stylesheet" href="style.css" type="text/css" media="screen"> <!--css file-->
@@ -19,7 +21,8 @@
 <div class="hero-unit">
 <div>
 <div>
-<img id="image" src="img/image.jpg" />
+
+<img id="image"  class="img-responsive" src="img/image.jpg" />
 </div> 
 <div><a target="_blank" href="https://github.com/kranthi7325">
     <img class="cornerimage" src="img/github7.jpg" 
@@ -38,14 +41,14 @@
   <nav>
   <ul>
     <li>
- <div class="container">
+ <div class="container1" style="">
     <div class="bar1"></div>
     <div class="bar2"></div>
     <div class="bar3"></div>
  </div>
     
       <ul class="drop-menu menu-1">
-       <a href="#about"><li ><b>About</b></li></a>
+       <a href="#about" style="text-decoration: none;"><li ><b>About</b></li></a>
         <li><b>Work</b></li>
         <li class="bor"><b>Contact</b></li>
       </ul>
@@ -61,7 +64,8 @@
    <h1><span style="color: #45b29a; font-size: 40px;" class="intro">Hi.</span><br>
    <span style="font-size: 40px;">
      
-   </style>i'm a UX/UI Designer, Front End and Back End Developer</span><br>
+   </style>i'm a UX/UI Designer, Front End and Back End Developer
+   </span><br>
 
    I enjoy turning complex problems into simple,<br> beautiful and intuitive interface designs. When 
     I'm<br>not coding or pushing pixels, you'll find me watching<br>
@@ -78,8 +82,11 @@
  </div>
 
 <div class="content2" ><h3 class="sk">Skill Level</h3>
+
 <div class="sec1">
+
 <div class="floating-box">
+
 <span class="chart1" data-percent="80">
   <span class="percent"></span>
   </span>
@@ -91,7 +98,8 @@
   </span>
 <h3 class="ja1">HTML</h3>
   </div>
-  <div class="floating-box"><span class="chart3" data-percent="82">
+  <div class="floating-box">
+  <span class="chart3" data-percent="82">
   <span class="percent"></span>
   </span>
   <h3 class="cs1">CSS</h3>
@@ -139,7 +147,8 @@
   </span>
   <h3 class="md1">Hibernite</h3>
   </div>
-</div>
+  </div>
+
 </div>
 <div class="content3" ></div>
 <div class="content4" ></div>
@@ -148,6 +157,8 @@
   
   window.sr = ScrollReveal({ reset: true });
 sr.reveal('.chart1, .chart2, .chart3, .chart4, .chart5, .chart6, .chart7, .chart8, .chart9, .chart1, .chart10, .centreimage, .intro');
+
+
 </script>
 </body>
 </html>

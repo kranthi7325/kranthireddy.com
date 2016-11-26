@@ -1,23 +1,24 @@
+
 a{
     text-decoration:none;
 }
-	*{
-	margin: 0px;
-	padding: 0px;
-	}
+a: hover
+{
+  text-decoration:none;
+}
+	
   .floating-box {
-    float: left;
-    margin: 95px;
-    text-align: center;
+    
+    display: inline-table;
+    padding: 70px;
+    
     }
 	
-	#image {
+	#image 
+  {
 		position: relative;
-	z-index: -1;
-	height: 770px;
-		width: 100%;
 
-	}
+   }
   .cornerimage {
   border: 0;
   position: fixed;
@@ -29,6 +30,7 @@ a{
   width: 60px;
   cursor: pointer;
   border-radius: 5px 5px 5px 5px;
+  z-index: 20;
 
  } 
  .cornerimage1 {
@@ -42,6 +44,7 @@ a{
   width: 60px;
   cursor: pointer;
   border-radius: 5px 5px 5px 5px;
+  z-index: 20;
   
 
  } 
@@ -60,12 +63,14 @@ a{
 		width: 100%;
 	   background-color:#ffffff;
 		position: relative;
-		z-index: -1;
+		z-index: 1;
 	}
   .centreimage
 {
+  align-self: center;
   margin-left:640px;
 margin-top: -750px;
+z-index: 1;
 position: absolute;
 height: 200px;
 }
@@ -98,7 +103,8 @@ article{
 	text-align: center;
 		background-color:#6cc6c6;
 		position: relative;
-		z-index: -1;
+		z-index: 1;
+    margin-top: -20px;
 	}
   
   .chart1 {
@@ -382,12 +388,13 @@ h2 {
     padding-bottom: 40px;
     padding-left: 400px;
 }
-.hero-unit p {
+p {
 	font-family: 'Dancing Script', cursive, Arial, Verdana;
   font-size: 60px;
   letter-spacing: -1px;
   margin-bottom: 400px;
-  color: #ffffff;
+  color: #000000;
+
   
 }
 	
@@ -403,14 +410,15 @@ h2 {
     margin-left: 50px;
     margin-top: 10px;
 
+
 }
 nav > ul {
   list-style: none;
   padding: 0;
   margin: 0;
   display: inline-block;
-  backface-visibility: hidden;
-  border-radius: 5px;
+  
+  border-radius: 0px;
 }
 
 nav > ul > li {
@@ -425,7 +433,7 @@ nav > ul > li {
   cursor: pointer;
 }
 nav > ul > li:hover {
-  backface-visibility: hidden;
+  
   border-radius: 5px;
 }
 
@@ -444,10 +452,11 @@ ul.drop-menu li {
   color: rgba(255, 255, 255, 1);
 }
 ul.drop-menu li:hover {
+  text-decoration: none;
   background: #4dbbac;
 }
 ul.drop-menu li:first-child {
-
+  
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
@@ -470,6 +479,7 @@ li:hover > ul.drop-menu.menu-1{
 }
 
 li:hover > ul.drop-menu.menu-1 li:nth-child(1){
+  text-decoration: none;
   opacity:0;
   -webkit-animation-name: menu1;
           animation-name: menu1;
