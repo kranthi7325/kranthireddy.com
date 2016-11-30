@@ -15,15 +15,21 @@
 <script src="easypie/jquery.easypiechart.min.js"></script> <!-- skills page plugin-->
 <script src="js/jquery.waypoints.min.js"></script>
 <script src="js/waypoint.js"></script>
+<meta charset="utf-8">
+
 </head>
 
 <body>
 <div class="hero-unit">
-<div>
-<div>
 
+<div class="thumbnai text-center">
 <img id="image"  class="img-responsive" src="img/image.jpg" />
+<div class="caption">
+  <p class="BodyContainer" id="indexname">
+  i'm Kranthi<br>a full stack web developer</p>
+</div>
 </div> 
+
 <div><a target="_blank" href="https://github.com/kranthi7325">
     <img class="cornerimage" src="img/github7.jpg" 
     onmouseover="this.src='img/github8.jpg'"
@@ -35,13 +41,12 @@
     onmouseout="this.src='img/linkedin7.jpg'"
     border="0" alt=""/></a>
 </div>
-</div>
-  <p class="BodyContainer" id="indexname">
-  i'm Kranthi<br>a full stack web developer</p>
+
+  
   <nav>
   <ul>
     <li>
- <div class="container1" style="">
+ <div class="container1">
     <div class="bar1"></div>
     <div class="bar2"></div>
     <div class="bar3"></div>
@@ -59,33 +64,42 @@
 
 
 <div class="content1" id="about">
-<article>
-   
-   <h1><span style="color: #45b29a; font-size: 40px;" class="intro">Hi.</span><br>
-   <span style="font-size: 40px;">
-     
-   </style>i'm a UX/UI Designer, Front End and Back End Developer
-   </span><br>
-
-   I enjoy turning complex problems into simple,<br> beautiful and intuitive interface designs. When 
-    I'm<br>not coding or pushing pixels, you'll find me watching<br>
-    youtube :p
-   </h1>
-</article>
-</div>
-
-<div>
+<div class="cent">
     <a>
-    <img class="centreimage" src="img/me.svg"  alt=""/>
+    <img class="center-block centreimage" src="img/me.svg"  alt=""/>
     </a>
 
  </div>
+ <div >
+<article class="text-center disc">
+   
+   <h1 style="margin-top: 100px; line-height: 50px;"><span style="color: #45b29a; font-size: 40px; font-family: 'Rajdhani', sans-serif;"> Hi. </span><br>
+   <span style="font-size: 40px; font-family: 'Rajdhani', sans-serif;">
+     
+   i'm a UX/UI Designer, Front End and Back End Developer</span><br>
+
+   <span style="font-size: 30px; font-family: 'Rajdhani', sans-serif;">I enjoy turning complex problems into simple,<br> beautiful and intuitive interface designs. When 
+    I'm<br>not coding or pushing pixels, you'll find me watching<br>
+    youtube :p
+    </span>
+   </h1>
+</article>
+</div>
+</div>
+
+
 
 <div class="content2" ><h3 class="sk">Skill Level</h3>
+<br>
+<br>
+<br>
+
 
 <div class="sec1">
-
+<div class="col-xs-2">
+  
 <div class="floating-box">
+
 
 <span class="chart1" data-percent="80">
   <span class="percent"></span>
@@ -98,7 +112,10 @@
   </span>
 <h3 class="ja1">HTML</h3>
   </div>
-  <div class="floating-box">
+  </div>
+  
+  <div class="col-xs-2">
+  <div class="floating-box ">
   <span class="chart3" data-percent="82">
   <span class="percent"></span>
   </span>
@@ -110,19 +127,25 @@
   </span>
   <h3 class="jq1">JS/JQuery</h3>
   </div>
+  </div>
+  <div class="col-xs-2">
   <div class="floating-box">
   <span class="chart5" data-percent="84">
   <span class="percent"></span>
   </span>
   <h3 class="ag1">BootStrap</h3>
   </div>
-  
-<div class="floating-box">
+
+
+	<div class="floating-box">
+
   <span class="chart6" data-percent="85">
   <span class="percent"></span>
   </span>
   <h3 class="re1">Angularjs</h3>
   </div>
+  </div>
+  <div class="col-xs-2">
   <div class="floating-box">
     <span class="chart7" data-percent="86">
   <span class="percent"></span>
@@ -135,6 +158,8 @@
   </span>
   <h3 class="pp1">SQL/PL</h3>
   </div>
+  </div>
+  <div class="col-xs-2">
   <div class="floating-box">
     <span class="chart9" data-percent="88">
   <span class="percent"></span>
@@ -146,14 +171,22 @@
   <span class="percent"></span>
   </span>
   <h3 class="md1">Hibernite</h3>
-  </div>
+</div>
   </div>
 
 </div>
+  
+  
+ </div>
+
+
 <div class="content3" ></div>
 <div class="content4" ></div>
 
 <script>
+
+
+
   
   window.sr = ScrollReveal({ reset: true });
 sr.reveal('.chart1, .chart2, .chart3, .chart4, .chart5, .chart6, .chart7, .chart8, .chart9, .chart1, .chart10, .centreimage, .intro');

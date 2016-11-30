@@ -1,24 +1,33 @@
-
-a{
-    text-decoration:none;
-}
-a: hover
+.sec1
 {
-  text-decoration:none;
+	padding-left: 200px;
 }
-	
-  .floating-box {
-    
-    display: inline-table;
-    padding: 70px;
-    
-    }
 	
 	#image 
   {
 		position: relative;
+    width: 100%;
+
+    
 
    }
+   .thumbnai {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+#indexname
+{
+  margin-top: -150px;
+  margin-right: 150px;
+}
+   
   .cornerimage {
   border: 0;
   position: fixed;
@@ -55,7 +64,8 @@ a: hover
   margin-left: 15px;
   text-align: center;
   position: fixed;
-  z-index: 1;
+  z-index: 5;
+
 
 }
 	.content1 {
@@ -65,58 +75,40 @@ a: hover
 		position: relative;
 		z-index: 1;
 	}
-  .centreimage
-{
-  align-self: center;
-  margin-left:640px;
-margin-top: -750px;
-z-index: 1;
-position: absolute;
-height: 200px;
-}
-article
-{
-  text-align: center;
-    position: absolute;
-    
-    margin-top: 250px;
-    margin-left: 320px;
-    
-}
-
-article{
-  font-family: 'Rajdhani', sans-serif, Arial, Verdana;
-  font-size: 20px;
-  letter-spacing: -1px;
-  line-height: 70px;
-  margin-bottom: 400px;
-  color: #000000;
-  
-}
-
-
-
+  .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 3;
+    height: 200px;
+        
+ }
 
 	.content2 {
 		height: 770px;
 		width: 100%;
 	text-align: center;
 		background-color:#6cc6c6;
+
+		overflow: auto;
 		position: relative;
 		z-index: 1;
     margin-top: -20px;
 	}
   
   .chart1 {
+  
   position: relative;
   display: inline-block;
-  overflow: auto;
+  font-family: Arial, Verdana;
   width: 110px;
   height: 110px;
-  font-family: Arial, Verdana;
+  overflow: hidden;
+  
   text-align: center;
 }
 .chart1 canvas {
+
   position: absolute;
   top: 0;
   left: 0;
@@ -132,71 +124,71 @@ color: white;
 .htm1
 {
   font-family: Arial, Verdana;
-  padding: 10px;
+  
   color: white;
 }
 .ja1
 {
   font-family: Arial, Verdana;
-  padding: 10px;
+  
   color: white;
 }
  
 .cs1
 {
   font-family: Arial, Verdana;
-  padding: 10px;
+  
   color: white;
 }
 .jq1
 {
   font-family: Arial, Verdana;
-  padding: 10px;
+  
   color: white;
 }
  
 .ag1
 {
   font-family: Arial, Verdana;
-  padding: 10px;
+  
   color: white;
 }
 .re1
 {
   font-family: Arial, Verdana;
-  padding: 10px;
+  
   color: white;
 }
  
 .nd1
 {
   font-family: Arial, Verdana;
-  padding: 10px;
+  
   color: white;
 }
 .pp1
 {
   font-family: Arial, Verdana;
-  padding: 10px;
+  
   color: white;
 }
 .ns1
 {
   font-family: Arial, Verdana;
-  padding: 10px;
+  
   color: white;
 }
  
 .ms1
 {
   font-family: Arial, Verdana;
-  padding: 10px;
+  
   color: white;
 }
 .md1
 {
   font-family: Arial, Verdana;
-  padding: 10px;
+
   color: white;
 }
 /*.htm1
@@ -207,10 +199,12 @@ color: white;
   margin-left: 224px;
   margin-top: 10px;
 }*/
+
+
 .chart2 {
   position: relative;
   display: inline-block;
-  overflow: auto;
+  overflow: hidden;
   font-family: Arial, Verdana;
   width: 110px;
   height: 110px;
@@ -222,20 +216,14 @@ color: white;
   top: 0;
   left: 0;
 }
-/*.cs1
-{
-  font-size: 20px;
-  font-family: Arial;
-  margin-left: 448px;
-  margin-top: 10px;
-}*/
+
 .chart3 {
   position: relative;
   display: inline-block;
   font-family: Arial, Verdana;
   width: 110px;
   height: 110px;
-  overflow: auto;
+  overflow: hidden;
   
   text-align: center;
 }
@@ -250,7 +238,7 @@ color: white;
   font-family: Arial, Verdana;
   width: 110px;
   height: 110px;
-  overflow: auto;
+  overflow: hidden;
   
   text-align: center;
 }
@@ -265,7 +253,7 @@ color: white;
   font-family: Arial, Verdana;
   width: 110px;
   height: 110px;
-  overflow: auto;
+  overflow: hidden;
   
   text-align: center;
 }
@@ -275,12 +263,13 @@ color: white;
   left: 0;
 }
 .chart6 {
+
   position: relative;
   display: inline-block;
   font-family: Arial, Verdana;
   width: 110px;
   height: 110px;
-  overflow: auto;
+  overflow: hidden;
   
   text-align: center;
 }
@@ -295,7 +284,7 @@ color: white;
   font-family: Arial, Verdana;
   width: 110px;
   height: 110px;
-  overflow: auto;
+  overflow: hidden;
   
   text-align: center;
 }
@@ -310,7 +299,7 @@ color: white;
   font-family: Arial, Verdana;
   width: 110px;
   height: 110px;
-  overflow: auto;
+  overflow: hidden;
   
   text-align: center;
 }
@@ -325,7 +314,7 @@ color: white;
   font-family: Arial, Verdana;
   width: 110px;
   height: 110px;
-  overflow: auto;
+  overflow: hidden;
   
   text-align: center;
 }
@@ -340,7 +329,7 @@ color: white;
   font-family: Arial, Verdana;
   width: 110px;
   height: 110px;
-  overflow: auto;
+  overflow: hidden;
   
   text-align: center;
 }
@@ -380,19 +369,12 @@ h2 {
    left: 0; 
    width: 100%; 
 }
-.BodyContainer{
-  
-    position: relative;
-    z-index: 1;
-    margin-top: -500px;
-    padding-bottom: 40px;
-    padding-left: 400px;
-}
+
 p {
 	font-family: 'Dancing Script', cursive, Arial, Verdana;
-  font-size: 60px;
+  font-size: 50px;
   letter-spacing: -1px;
-  margin-bottom: 400px;
+  margin-bottom: -10px;
   color: #000000;
 
   
@@ -404,14 +386,15 @@ p {
     width: 35px;
     height: 5px;
     background-color: #000000;
-    margin: 6px 0;
-    transition: 0.4s;
+  
+    
     align-items:  center;
     margin-left: 50px;
     margin-top: 10px;
 
-
 }
+
+
 nav > ul {
   list-style: none;
   padding: 0;
