@@ -191,14 +191,7 @@ color: white;
 
   color: white;
 }
-/*.htm1
-{
-  .ja1 .cs1 .jq1 .ag1 .re1 .nd1 .pp1 .ns1 .ms1 .md1
-  font-size: 20px;
-  font-family: Arial;
-  margin-left: 224px;
-  margin-top: 10px;
-}*/
+
 
 
 .chart2 {
@@ -348,10 +341,49 @@ color: white;
 		height: 770px;
 		width: 100%;
 		
-		/*background-color:#DD9FF7;*/
-		position: relative;
-		z-index: -1;
+		background-color: #e5eaee;
+    margin-top: -20px;
+		
+		
 	}
+    
+    
+  
+
+    .thumb-overlay
+  {
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    
+    background-color: #c99065;
+    text-align: center;
+    z-index: 1;
+    overflow: hidden;
+    top: 0;
+    opacity: 0;
+  }
+  .thumb-overlay:hover
+  {
+    
+    transition: 0.5s;
+     opacity: 0.7;
+     z-index: 3;
+     cursor: pointer;
+
+  }
+  
+
+  .wor
+  {
+    color: #c99065;
+    padding: 50px;
+  }
+  .no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+  
 	.content4 {
 		height: 770px;
 		width: 100%;
@@ -434,15 +466,18 @@ ul.drop-menu li {
   background: #666;
   color: rgba(255, 255, 255, 1);
 }
+
 ul.drop-menu li:hover {
   text-decoration: none;
   background: #4dbbac;
 }
-ul.drop-menu li:first-child {
+.bor0{
   
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
+
+
 .bor
 {
   border-bottom-right-radius: 5px;
@@ -540,3 +575,5 @@ li:hover > ul.drop-menu.menu-1 li:nth-child(4){
   }
 
 }
+
+
