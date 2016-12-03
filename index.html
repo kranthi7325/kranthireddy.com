@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.4.5/js/bootstrapvalidator.min.js"></script>
 
 <script src="js/script.js"></script> <!--js file of parallax-->
 <script src="js/scroll.js"> </script>  <!--jquery file of text fade out effect-->
@@ -55,7 +56,7 @@
       <ul class="drop-menu menu-1">
        <a href="#about" style="text-decoration: none;"><li class="bor0"><b>About</b></li></a>
         <a href="#work" style="text-decoration: none;"><li ><b>Work</b></li></a>
-        <li class="bor"><b>Contact</b></li>
+        <a href="#contact1" style="text-decoration: none;"><li class="bor"><b>Contact</b></li></a>
       </ul>
     </li>
   </ul>
@@ -215,7 +216,84 @@
 </div>
 </div>
 
-<div class="content4" ></div>
+<div class="content4" id="contact1">
+	<div class="containr">
+
+    <form class="well form-horizontal" action="https://formspree.io/connecttokranthi7@gmail.com"
+      method="POST"  id="contact_form">
+      <input type="hidden" name="_next" value="parallex/redirect/redirect.html" />
+<fieldset>
+
+<!-- Form Name -->
+<legend style="text-align: center;">Contact Me</legend>
+
+<!-- Text input-->
+<div class="move1">
+<div class="form-group">
+  <label class="col-md-4 control-label" >Name</label>  
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input  name="name" placeholder="Full Name" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+
+
+
+<!-- Text input-->
+       <div class="form-group">
+  <label class="col-md-4 control-label">E-Mail</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+  <input name="_replyto" placeholder="E-Mail Address" class="form-control"  type="email">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- Text area -->
+  
+<div class="form-group">
+  <label class="col-md-4 control-label">Message</label>
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+          <textarea class="form-control" name="comment" placeholder="Your Message"></textarea>
+  </div>
+  </div>
+</div>
+
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label"></label>
+  <div class="col-md-4">
+    
+    <button type="submit" value="Send" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span>
+
+    </button>
+  </div>
+</div>
+</div>
+<div style="text-align: center; color: black;"><h3><b>You can also Contact me at 
+<br>
+connecttokranthi7@gmail.com<b></h3></div>
+</div>
+
+</fieldset>
+</form>
+</div>
+
+
+	
+</div>
 
 <script>
 

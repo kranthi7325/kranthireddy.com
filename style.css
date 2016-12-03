@@ -384,15 +384,23 @@ color: white;
     padding-left:0;
 }
   
-	.content4 {
-		height: 770px;
-		width: 100%;
-	
-		background-color:#CD5A57;
-		position: relative;
-		z-index: -1;
-	}
+	.form-group
+  {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+  .move1
+  {
+    padding-top: 75px;
+  }
 
+
+  form
+  {
+    background:url(img/form-back.jpg);
+    height: 600px;
+
+  }
 	
 
 h2 { 

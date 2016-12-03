@@ -1,0 +1,69 @@
+.content1 {
+   position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+	   background:#f1f1fa;	
+	}
+
+	.box1
+	{
+	background: #ffffff;
+	height: 300px;
+	width: 500px;
+	margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  border: 5px solid #359173;
+  border-radius: 5px;
+
+	}
+
+	.like-image
+	{
+margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  padding-bottom: 40px;
+
+	}
+	.top-text
+	{
+		font-size: 20px;
+		text-align: center;
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif, Arial, Verdana;
+	}
+
+	.butt
+	{
+		height: 80px;
+		width: 200px;
+	
+		margin: auto;
+  position: absolute;
+   left: 0; bottom: 0; right: 0;
+   margin-bottom: 15px;
+	}
+ 
+ .butt h2
+ {
+ 	text-align: center;
+ 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif, Arial, Verdana;
+	padding-right: 25px; 
+
+ }
+
+ .cont2
+ {
+ 	margin: auto;
+  position: absolute;
+    bottom: 0; right: 5px;
+   padding-bottom: 20px;
+   height: 40px;
+   width: 40px;
+
+  
+ }
