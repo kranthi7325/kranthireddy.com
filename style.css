@@ -1,25 +1,49 @@
 .sec1
 {
-	padding-left: 200px;
+	
+	
+	min-width: 670px;
+	padding: 60px 0;
+	margin-left: 120px;
+	margin-right: auto;
+	
+	
 }
+
+
+
 	
 	#image 
   {
-		position: relative;
+	position: relative;
     width: 100%;
 
-    
-
-   }
-   .thumbnai {
+    }
+  .thumbnai {
     position: relative;
+    display: inline-block;
+
+}
+.thumbnai .BodyContainer {
+    width: 100%;
+    
+    position: absolute;
+  
+    z-index: 1;
+    
+}
+.thumbnai img {
+    
+    display: block;
+
 }
 
 .caption {
     position: absolute;
     top: 45%;
-    left: 0;
+    left: -160px;
     width: 100%;
+    padding: 100px;
 }
 
 #indexname
@@ -81,6 +105,7 @@
     margin-right: auto;
     z-index: 3;
     height: 200px;
+    padding-top: 30px;
         
  }
 
@@ -93,7 +118,7 @@
 		overflow: auto;
 		position: relative;
 		z-index: 1;
-    margin-top: -20px;
+    
 	}
   
   .chart1 {
@@ -102,7 +127,7 @@
   display: inline-block;
   font-family: Arial, Verdana;
   width: 110px;
-  height: 110px;
+
   overflow: hidden;
   
   text-align: center;
@@ -124,71 +149,71 @@ color: white;
 .htm1
 {
   font-family: Arial, Verdana;
-  
+  font-size: 3vmin;
   color: white;
 }
 .ja1
 {
   font-family: Arial, Verdana;
-  
+  font-size: 3vmin;
   color: white;
 }
  
 .cs1
 {
   font-family: Arial, Verdana;
-  
+  font-size: 3vmin;
   color: white;
 }
 .jq1
 {
   font-family: Arial, Verdana;
-  
+  font-size: 3vmin;
   color: white;
 }
  
 .ag1
 {
   font-family: Arial, Verdana;
-  
+  font-size: 3vmin;
   color: white;
 }
 .re1
 {
   font-family: Arial, Verdana;
-  
+  font-size: 3vmin;
   color: white;
 }
  
 .nd1
 {
   font-family: Arial, Verdana;
-  
+  font-size: 3vmin;
   color: white;
 }
 .pp1
 {
   font-family: Arial, Verdana;
-  
+  font-size: 3vmin;
   color: white;
 }
 .ns1
 {
   font-family: Arial, Verdana;
-  
+  font-size: 3vmin;
   color: white;
 }
  
 .ms1
 {
   font-family: Arial, Verdana;
-  
+  font-size: 3vmin;
   color: white;
 }
 .md1
 {
   font-family: Arial, Verdana;
-
+font-size: 3vmin;
   color: white;
 }
 
@@ -200,7 +225,7 @@ color: white;
   overflow: hidden;
   font-family: Arial, Verdana;
   width: 110px;
-  height: 110px;
+  
   
   text-align: center;
 }
@@ -215,7 +240,7 @@ color: white;
   display: inline-block;
   font-family: Arial, Verdana;
   width: 110px;
-  height: 110px;
+  
   overflow: hidden;
   
   text-align: center;
@@ -230,7 +255,7 @@ color: white;
   display: inline-block;
   font-family: Arial, Verdana;
   width: 110px;
-  height: 110px;
+  
   overflow: hidden;
   
   text-align: center;
@@ -245,7 +270,7 @@ color: white;
   display: inline-block;
   font-family: Arial, Verdana;
   width: 110px;
-  height: 110px;
+
   overflow: hidden;
   
   text-align: center;
@@ -261,7 +286,7 @@ color: white;
   display: inline-block;
   font-family: Arial, Verdana;
   width: 110px;
-  height: 110px;
+  
   overflow: hidden;
   
   text-align: center;
@@ -276,7 +301,7 @@ color: white;
   display: inline-block;
   font-family: Arial, Verdana;
   width: 110px;
-  height: 110px;
+  
   overflow: hidden;
   
   text-align: center;
@@ -291,7 +316,7 @@ color: white;
   display: inline-block;
   font-family: Arial, Verdana;
   width: 110px;
-  height: 110px;
+  
   overflow: hidden;
   
   text-align: center;
@@ -306,7 +331,7 @@ color: white;
   display: inline-block;
   font-family: Arial, Verdana;
   width: 110px;
-  height: 110px;
+  
   overflow: hidden;
   
   text-align: center;
@@ -321,7 +346,7 @@ color: white;
   display: inline-block;
   font-family: Arial, Verdana;
   width: 110px;
-  height: 110px;
+  
   overflow: hidden;
   
   text-align: center;
@@ -332,9 +357,10 @@ color: white;
   left: 0;
 }
 .percent {
-  display: inline-block;
+  
   line-height: 110px;
   z-index: 2;
+  
   
 }
 	.content3 {
@@ -346,11 +372,10 @@ color: white;
 		
 		
 	}
-    
-    
-  
 
-    .thumb-overlay
+
+
+   .thumb-overlay
   {
     position: absolute;
     height: 300px;
@@ -372,6 +397,13 @@ color: white;
      cursor: pointer;
 
   }
+  
+  .thumb-overlay .hov
+  {
+  	text-align: center;
+  	top: 0;
+  }
+  
   
 
   .wor
@@ -412,10 +444,13 @@ h2 {
 
 p {
 	font-family: 'Dancing Script', cursive, Arial, Verdana;
-  font-size: 50px;
+  
   letter-spacing: -1px;
-  margin-bottom: -10px;
+  
   color: #000000;
+  
+  font-size: 6vmin;
+
 
   
 }
