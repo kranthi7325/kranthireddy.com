@@ -75,6 +75,9 @@
         });
 });
 
+  var width = $(window).width() - 20; 
+$("#sec2").width(width);
+
 
 
 	
