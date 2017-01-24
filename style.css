@@ -1,40 +1,31 @@
 .sec1
 {
-	
-	
-	min-width: 670px;
-	padding: 60px 0;
-	margin-left: 114px;
-	margin-right: auto;
-	
-	
+  min-width: 670px;
+  padding: 60px 0;
+  margin-right: auto;
 }
-
-
-	
+.sec1 .floating-box
+{
+  position: relative;
+  left: 50%;
+  margin-left: 20px
+}
 	#image 
   {
 	position: relative;
     width: 100%;
-
     }
   .thumbnai {
     position: relative;
     display: inline-block;
-
 }
 .thumbnai .BodyContainer {
     width: 100%;
-    
     position: absolute;
-  
     z-index: 1;
-    
 }
 .thumbnai img {
-    
     display: block;
-
 }
 
 .caption {
@@ -50,7 +41,6 @@
   margin-top: -150px;
   margin-right: 150px;
 }
-   
   .cornerimage {
   border: 0;
   position: fixed;
@@ -63,7 +53,6 @@
   cursor: pointer;
   border-radius: 5px 5px 5px 5px;
   z-index: 20;
-
  } 
  .cornerimage1 {
   border: 0;
@@ -77,10 +66,7 @@
   cursor: pointer;
   border-radius: 5px 5px 5px 5px;
   z-index: 20;
-  
-
  } 
-
 	nav {
   top: 0;
   margin-top: 20px;
@@ -88,65 +74,87 @@
   text-align: center;
   position: fixed;
   z-index: 5;
-
-
 }
 	.content1 {
 		height: 770px;
 		width: 100%;
-	   background-color:#ffffff;
+    margin-top: -5px;
+	   background-color:#e0ebe8;
 		position: relative;
 		z-index: 1;
 	}
+
+  .disc .left-cloud {
+    left: 3em;
+    bottom: 32em;
+}
+.disc .right-cloud {
+    right: 10em;
+    top: 0;
+    margin-top: 120px;
+    
+}
+.disc .cloud {
+    position: absolute;
+    background: url(img/cloud.svg) top left no-repeat;
+    background-image: url(img/cloud.svg);
+    background-position-x: left;
+    background-position-y: top;
+    background-size: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    width: 150px;
+    height: 45px;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: initial;
+    z-index: 980;
+}
+
   .center-block {
     display: block;
     margin-left: auto;
     margin-right: auto;
     z-index: 3;
     height: 200px;
-    padding-top: 30px;
-        
+    padding-top: 30px;  
  }
-
- 
-
 	.content2 {
 		height: 770px;
 		width: 100%;
 	text-align: center;
-		background-color:#6cc6c6;
-
+		background-color:#4ab19a;  /* 6cc6c6  */
 		overflow: auto;
 		position: relative;
 		z-index: 1;
-    
+    margin-top: -1px;
 	}
-  
   .chart1 {
-  
   position: relative;
   display: inline-block;
   font-family: Arial, Verdana;
   width: 110px;
-
   overflow: hidden;
-  
   text-align: center;
 }
 .chart1 canvas {
-
   position: absolute;
   top: 0;
   left: 0;
 }
-
 .sk
 {
   font-family: Arial, Verdana;
 padding-top: 40px;
 color: white;
 }
- 
 .htm1
 {
   font-family: Arial, Verdana;
@@ -159,7 +167,6 @@ color: white;
   font-size: 3vmin;
   color: white;
 }
- 
 .cs1
 {
   font-family: Arial, Verdana;
@@ -172,7 +179,6 @@ color: white;
   font-size: 3vmin;
   color: white;
 }
- 
 .ag1
 {
   font-family: Arial, Verdana;
@@ -185,7 +191,6 @@ color: white;
   font-size: 3vmin;
   color: white;
 }
- 
 .nd1
 {
   font-family: Arial, Verdana;
@@ -204,7 +209,6 @@ color: white;
   font-size: 3vmin;
   color: white;
 }
- 
 .ms1
 {
   font-family: Arial, Verdana;
@@ -217,17 +221,12 @@ color: white;
 font-size: 3vmin;
   color: white;
 }
-
-
-
 .chart2 {
   position: relative;
   display: inline-block;
   overflow: hidden;
   font-family: Arial, Verdana;
   width: 110px;
-  
-  
   text-align: center;
 }
 .chart2 canvas {
@@ -235,15 +234,12 @@ font-size: 3vmin;
   top: 0;
   left: 0;
 }
-
 .chart3 {
   position: relative;
   display: inline-block;
   font-family: Arial, Verdana;
   width: 110px;
-  
   overflow: hidden;
-  
   text-align: center;
 }
 .chart3 canvas {
@@ -256,9 +252,7 @@ font-size: 3vmin;
   display: inline-block;
   font-family: Arial, Verdana;
   width: 110px;
-  
   overflow: hidden;
-  
   text-align: center;
 }
 .chart4 canvas {
@@ -271,9 +265,7 @@ font-size: 3vmin;
   display: inline-block;
   font-family: Arial, Verdana;
   width: 110px;
-
   overflow: hidden;
-  
   text-align: center;
 }
 .chart5 canvas {
@@ -282,14 +274,11 @@ font-size: 3vmin;
   left: 0;
 }
 .chart6 {
-
   position: relative;
   display: inline-block;
   font-family: Arial, Verdana;
   width: 110px;
-  
   overflow: hidden;
-  
   text-align: center;
 }
 .chart6 canvas {
@@ -302,9 +291,7 @@ font-size: 3vmin;
   display: inline-block;
   font-family: Arial, Verdana;
   width: 110px;
-  
   overflow: hidden;
-  
   text-align: center;
 }
 .chart7 canvas {
@@ -317,9 +304,7 @@ font-size: 3vmin;
   display: inline-block;
   font-family: Arial, Verdana;
   width: 110px;
-  
   overflow: hidden;
-  
   text-align: center;
 }
 .chart8 canvas {
@@ -332,9 +317,7 @@ font-size: 3vmin;
   display: inline-block;
   font-family: Arial, Verdana;
   width: 110px;
-  
   overflow: hidden;
-  
   text-align: center;
 }
 .chart9 canvas {
@@ -347,9 +330,7 @@ font-size: 3vmin;
   display: inline-block;
   font-family: Arial, Verdana;
   width: 110px;
-  
   overflow: hidden;
-  
   text-align: center;
 }
 .chart10 canvas {
@@ -358,46 +339,46 @@ font-size: 3vmin;
   left: 0;
 }
 .percent {
-  
   line-height: 110px;
   z-index: 2;
-  
-  
+}
+img.tree{
+  position: absolute;
+  left: 50%;
+  width: 800px;
+  z-index: -1;
+  margin-top: 270px;
+  margin-left: -410px
 }
 	.content3 {
 		height: 770px;
 		width: 100%;
-		
 		background-color: #e5eaee;
     margin-top: -20px;
-		
-		
 	}
-
 .thumb-unit img
 {
-  width: 60%;
-  height: auto;
-  vertical-align: top;
-  margin-left: 60px;
-  padding: 40px 0;
-
+  position:relative;
+  width: 300px;
+  height: 200px;
+  left: 50%;
+  margin-left: -150px;
 }
-
-
-
-
-
+.thumb-unit .im1
+{
+  margin-bottom: 50px;
+}
+.thumb-unit .im2
+{
+  margin-bottom: 50px;
+}
    .thumb-overlay
   {
     position: absolute;
-    vertical-align: top;
-    margin-top: 40px;
-    height: 75%;
-    width: 57.5%;
-    margin-left: 60px;
-    padding: 40px 0;
-    
+    width: 300px;
+  height: 200px;
+  left: 50%;
+  margin-left: -150px;
     background-color: #c99065;
     text-align: center;
     z-index: 1;
@@ -411,9 +392,7 @@ font-size: 3vmin;
      opacity: 0.7;
      z-index: 3;
      cursor: pointer;
-
   }
-  
   .thumb-overlay .hov
   {
     text-align: center;
@@ -421,10 +400,6 @@ font-size: 3vmin;
     font-size: 3.5vmin;
     top: 0;
   }
-  
-  
-  
-
   .wor
   {
     color: #c99065;
@@ -434,7 +409,6 @@ font-size: 3vmin;
     padding-right:0;
     padding-left:0;
 }
-  
 	.form-group
   {
     font-size: 18px;
@@ -444,60 +418,40 @@ font-size: 3vmin;
   {
     padding-top: 75px;
   }
-
-
   form
   {
     background:url(img/form-back.jpg);
     height: 600px;
-
+    margin: 0 auto -155px; 
   }
-	
-
 h2 { 
    position: absolute; 
    top: 200px; 
    left: 0; 
    width: 100%; 
 }
-
 p {
 	font-family: 'Dancing Script', cursive, Arial, Verdana;
-  
   letter-spacing: -1px;
-  
   color: #000000;
-  
   font-size: 6vmin;
-
-
-  
 }
-	
-
 .bar1, .bar2, .bar3 {
 	z-index: 1;
     width: 35px;
     height: 5px;
     background-color: #000000;
-  
-    
     align-items:  center;
     margin-left: 50px;
     margin-top: 10px;
-
 }
-
-
 nav > ul {
   list-style: none;
   padding: 0;
   margin: 0;
   display: inline-block;
-  
   border-radius: 0px;
 }
-
 nav > ul > li {
   float: left;
   width: 150px;
@@ -510,12 +464,9 @@ nav > ul > li {
   cursor: pointer;
 }
 nav > ul > li:hover {
-  
   border-radius: 5px;
 }
-
 ul.drop-menu {
-
   position: absolute;
   top: 100%;
   left: 0%;
@@ -523,7 +474,6 @@ ul.drop-menu {
   padding: 0;
 }
 ul.drop-menu li {
-
 	font-family: Arial Narrow, Century Gothic, Arial;
   background: #666;
   color: rgba(255, 255, 255, 1);
@@ -538,18 +488,14 @@ ul.drop-menu li:hover {
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
-
-
 .bor
 {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-
 ul.drop-menu li {
   display: none;
 }
-
 li:hover > ul.drop-menu li {
   display: block;
 }
@@ -557,7 +503,6 @@ li:hover > ul.drop-menu.menu-1{
   -webkit-perspective: 1000px;
           perspective: 1000px;
 }
-
 li:hover > ul.drop-menu.menu-1 li:nth-child(1){
   text-decoration: none;
   opacity:0;
@@ -569,7 +514,6 @@ li:hover > ul.drop-menu.menu-1 li:nth-child(1){
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-
 }
 li:hover > ul.drop-menu.menu-1 li:nth-child(2){
   opacity:0;
@@ -581,7 +525,6 @@ li:hover > ul.drop-menu.menu-1 li:nth-child(2){
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-
 }
 li:hover > ul.drop-menu.menu-1 li:nth-child(3){
   opacity:0;
@@ -593,7 +536,6 @@ li:hover > ul.drop-menu.menu-1 li:nth-child(3){
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-
 }
 li:hover > ul.drop-menu.menu-1 li:nth-child(4){
   opacity:0;
@@ -605,7 +547,6 @@ li:hover > ul.drop-menu.menu-1 li:nth-child(4){
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-
 }
 
 @-webkit-keyframes menu1 {
@@ -614,13 +555,11 @@ li:hover > ul.drop-menu.menu-1 li:nth-child(4){
     -webkit-transform: rotateY(-90deg) translateY(30px);
             transform: rotateY(-90deg) translateY(30px);
   }
-
   100%{
     opacity: 1;
     -webkit-transform: rotateY(0deg) translateY(0px);
             transform: rotateY(0deg) translateY(0px);
   }
-
 }
 
 @keyframes menu1 {
@@ -629,13 +568,11 @@ li:hover > ul.drop-menu.menu-1 li:nth-child(4){
     -webkit-transform: rotateY(-90deg) translateY(30px);
             transform: rotateY(-90deg) translateY(30px);
   }
-
   100%{
     opacity: 1;
     -webkit-transform: rotateY(0deg) translateY(0px);
             transform: rotateY(0deg) translateY(0px);
   }
-
 }
 
 
