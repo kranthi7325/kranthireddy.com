@@ -86,7 +86,8 @@
 
   .disc .left-cloud {
     left: 3em;
-    bottom: 32em;
+    bottom: 35em;
+    z-index: -1;
 }
 .disc .right-cloud {
     right: 10em;
@@ -109,6 +110,7 @@
     background-color: initial;
     width: 150px;
     height: 45px;
+
     -webkit-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
     transition-property: all;
@@ -420,7 +422,7 @@ img.tree{
   }
   form
   {
-    background:url(img/form-back.jpg);
+    background:url(img/tie1.jpg);
     height: 600px;
     margin: 0 auto -155px; 
   }

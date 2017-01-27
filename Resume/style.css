@@ -237,7 +237,6 @@ strong img {
     vertical-align:middle;
     margin-left: 0px;
     margin-right: 20px;
-    
   }
 
   h1:hover img, h1 img:hover {
@@ -248,6 +247,7 @@ strong img {
 
   #resume {
     width:auto;
+ 
     float:none;
     padding-bottom:0;
     margin-top:0;
@@ -329,6 +329,7 @@ strong img {
     padding-top: 200px;
     top:0;
     bottom: 0;
+    margin-left: -10px;
     left: 35px;
     right: 0;
     margin: auto;
@@ -338,6 +339,7 @@ strong img {
     padding-bottom:10px;
     padding-top:0px;
     margin-right: 10%;
+
     display: inline-block;
     left: 0px;
     right: 0px;
@@ -372,6 +374,9 @@ strong img {
     margin-right: 11px;
     display: inline-block;
   }
+
+
+
 }
 
 
